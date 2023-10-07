@@ -1,0 +1,43 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5px;
+}
+
+#topnav {
+    margin-left: 700px; /* Add some margin to the left of the navigation links to avoid overlapping with the logo */
+    background-color: rgb(145, 145, 145); 
+    height: 55px;
+    border-radius: 5px;
+}
+
+.top-nav:hover {
+    background-color: rgb(0, 0, 0); /* Change to your desired hover background color */
+    border-radius: 5px;
+}
+
+.top-nav {
+    margin: 15px;
+    text-decoration: none;
+    padding: 35px;
+    transition: 0.5s ease;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
