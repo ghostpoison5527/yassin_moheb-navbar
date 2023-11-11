@@ -3,15 +3,50 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
-    font-family: Courier;
-    background-color: rgb(255, 255, 255);
+
+body {
+    font-family: "Work Sans", sans-serif;
 }
-.header{
+
+  /* heading */
+.header {
     padding: 20px;
 }
-.header .container{
+
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header .container .menu {
+    display: flex;
+    list-style: none;
+}
+
+.header .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    right: 0;
+    min-width: 200px;
+}
+.header .links li {
+    display: inline-block;
+    font-size: 3.125em;
+}
+.header .links li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+    text-decoration-color: azure;
+}
+.header .links li a:hover {
+    border-radius: 7px;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(32, 32, 32);
 }
